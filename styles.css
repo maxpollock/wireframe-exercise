@@ -1,0 +1,85 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Navigation bar styling */
+header {
+  width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  background-color: grey;
+  position: relative;
+  top: -1rem;
+}
+
+nav {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Section Styling for all containers */
+
+main {
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  height: auto;
+  margin: 30px auto;
+}
+
+/* Article Section */
+article {
+  margin-left: 30px;
+  height: 400px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+p {
+  overflow-y: scroll;
+  height: 330px;
+  font-style: italic;
+  line-height: 1.2rem;
+}
+
+button {
+  border: none;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  margin-top: 7px;
+  padding: 10px 20px;
+  transition: 350ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+/* Footer Section */
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+}
