@@ -1,24 +1,34 @@
 body {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* Navigation bar styling */
 header {
   width: 100%;
   margin: 1rem auto;
-  display: flex;
   background-color: grey;
   position: relative;
   top: -1rem;
+  padding: 1rem 0rem;
+}
+
+.navigation {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navigation img {
+  display: flex;
 }
 
 nav {
-  margin: 0 auto;
-  width: 960px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 1rem;
 }
 
 a {
